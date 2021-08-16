@@ -1,0 +1,67 @@
+.subHeader {
+  background-color: #232f3e;
+  height: 39px;
+  display: flex;
+  padding-left: 10px;
+  margin-right: 0;
+}
+
+.subHeader__sectionA {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+}
+.subHeader__sectionA > div {
+  white-space: nowrap;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1em;
+  padding-left: 5px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  margin: 5px 0 6px 0;
+  padding: 7px 8px;
+  border: 1px solid transparent;
+}
+.subHeader__sectionA > div:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.subHeader__menuItem {
+  font-size: 25px !important;
+}
+.subHeader_menuText {
+  font-weight: 700;
+  padding-left: 2px;
+}
+
+.subHeader__sectionB {
+  margin-left: auto;
+  width: 400px;
+  display: flex;
+  justify-content: flex-end;
+  text-align: end;
+}
+
+.subHeader__sectionB > div {
+  margin: 1px;
+  color: white;
+  font-size: 14px;
+  border-radius: 2px;
+  border: 1px solid transparent;
+}
+
+.subHeader__sectionB > div:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.subHeader__sectionB > div > img {
+  font-size: 12px;
+  line-height: 1em;
+  height: 100%;
+}

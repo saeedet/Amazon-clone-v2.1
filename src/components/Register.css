@@ -1,0 +1,44 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.register__footer {
+  margin-top: 28px;
+  height: 44px;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.14),
+    rgba(0, 0, 0, 0.03) 3px,
+    transparent
+  );
+  z-index: 0;
+}
+.register__footer::after {
+  content: "";
+  display: block;
+  height: 44px;
+  width: 100%;
+  background-color: transparent;
+  background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0), #fff);
+  z-index: 1;
+}
+
+.register__footerLink {
+  margin-bottom: -5px;
+  margin-top: -18px;
+  font-size: 13px;
+  line-height: 19px;
+  z-index: 1;
+}
+.register__footerLink > a {
+  text-decoration: none;
+  color: #0066c0;
+}
+.register__footerLink > a:hover {
+  text-decoration: underline;
+  color: #e77600;
+}

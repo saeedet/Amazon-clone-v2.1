@@ -1,0 +1,30 @@
+.success {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.success__container {
+  background-color: white;
+  width: 50%;
+  padding: 20px;
+}
+.success__messageContainer {
+  display: flex;
+}
+.success__messageIcon {
+  padding-right: 10px;
+  color: rgb(16, 185, 129);
+}
+.success__message {
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media (max-width: 766px) {
+  .success__container {
+    width: 100%;
+  }
+}
